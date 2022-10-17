@@ -1,0 +1,30 @@
+.bg-dark{
+    background-image: url(../asset/img/about/4.jpg) !important;
+    background-color: rgb(78, 17, 17) !important;
+    background-position: center center!important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+.bg-dark:before{
+    content: '';
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.651) !important;
+}
+.login-box{
+    position: relative;
+}
+.text-white{
+    color: white !important;
+}
+.tamaño-texto{
+    font-size: 50px;
+    color: white !important;
+}
+.text-align{
+    text-align: center;
+}
