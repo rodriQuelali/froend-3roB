@@ -1,0 +1,17 @@
+PASOS QUE EMPLEE PARA CREAR EL REPOSITORIO
+1. Crear una cuenta en github
+2. Ir a "Crear un nuevos repositorio", seleccionar publico, darle un nombre en mi caso fue Front-End y seleccionar "Crear repositorio"
+3. Descargar GIT e instalarlo
+3. utilizar el comando git config --global user.name "Jessica22laura" para mi nombre
+4. utilizar el comando git config --global user.email laura.lima.camacho.jessica.1999@gmail.com para mi correo.
+5. Despues ir al archivo XAMPP del disco C: y crear un archivo base para subirlo al repositorio.
+6. Solicitarles a mis compañeros los archivos, librerias y todo lo que utilizaran para crear el archivo base.
+7. Ir a GIT y jalar el archivo que ya habiamos creado de base
+8. Ejecutar el comando git clone para clonar los archivos que se crearon por defecto en el repositorio
+9. Ejecutar el comando git status para ver las modificaciones que se hicieron 
+10. Ejecutar el comando git add . para agregar los archivos base al repositorio
+11. Ejecutar el comando git commit -m "first commit" para darle un nombre el commit
+12. Finalmente ejecutar el comando git push para subir el archivo base
+
+
+
