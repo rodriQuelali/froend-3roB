@@ -26,19 +26,34 @@
     color: white !important;
 }
 .tamaño-text{
+<<<<<<< HEAD
+  font-size: 19px !important;
+  inline-size: auto;
+=======
   font-size: 20px !important;
+>>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 }
 .tam-text{
   font-size: 15px !important;
 }
 .text-align{
+<<<<<<< HEAD
+    text-align: center !important;
+=======
     text-align: center;
+>>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 }
 .table-color{
   background-color: rgb(255, 255, 255) !important;
   position: relative;
 }
 
+<<<<<<< HEAD
+.filtro{
+  display: none !important;
+}
+=======
+>>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 /* API */
 html {
     font-family: sans-serif;

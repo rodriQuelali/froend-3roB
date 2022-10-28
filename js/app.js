@@ -31,6 +31,27 @@ const updateCategoria = () => {
   document.querySelector('#formEdit').reset();
 }
 
+<<<<<<< HEAD
+document.addEventListener("keyup", e=>{
+
+  if (e.target.matches("#buscador")){
+
+      if (e.key ==="Escape")e.target.value = ""
+
+      document.querySelectorAll(".Articulo").forEach(fruta =>{
+
+          fruta.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+            ?fruta.classList.remove("filtro")
+            :fruta.classList.add("filtro")
+      })
+
+  }
+
+
+})
+
+=======
+>>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 // MODAL ADIT MANAGER
 /** --------------------------------------------------------------- */
 const modalEdit = document.querySelector('#modalEdit');
