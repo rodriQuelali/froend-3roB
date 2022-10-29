@@ -1,0 +1,141 @@
+*{
+   
+    
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background:#52b7fa;
+    min-height: 100vh;
+    font-family: sans-serif;
+    color:rgb(255, 253, 253);
+    
+    }
+    
+
+
+/*trabajamos con  formularios*/
+
+.form_registro{
+    width:95%;
+    max-width: 500px;
+    background: rgb(1, 79, 100);
+    margin: auto;
+    color: #000;
+   
+}
+.form_titulo{
+   
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 100;
+    
+    
+}
+.contenedor_input{
+    width:100%;
+    max-width: 500px;
+    margin: auto;
+    background: rgb(1, 79, 100);
+    color: #fff;
+    padding: 0 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.input_50{
+    display: inline-block;
+    width: 48%;
+}
+.input_100{
+    width: 99%;
+    display: inline-block;
+}
+
+input{
+    
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+input:hover{
+   border:1px solid deepskyblue;
+}
+input:focus{
+    border-radius: 7px;
+    border:1px solid deepskyblue;
+}
+
+/*estilos para boton*/
+input[type="submit"]{
+   
+    background: rgb(2, 78, 62);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    width: 40%;
+    font-size:20;
+    padding: 10px;
+    margin-top: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(5, 100, 112);
+   
+    
+}
+
+input[type="reset"]{
+   
+    background: rgb(30, 5, 119);
+    border-radius: 7px;
+    color: rgb(247, 247, 247);
+    border: none;
+    width: 40%;
+    font-size:20;
+    padding: 10px;
+    margin-top: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+input[type="reset"]:hover{
+    cursor: pointer;
+    background: rgb(65, 56, 252);
+   
+    
+}
+
+
+.form_link{
+    color: rgb(252, 248, 248);
+    width: 100%;
+    
+}
+
+
+@media(max-width:768px){
+    .form_registro{
+        width: 70%;
+      
+    }
+    
+}
+@media(max-width:480px){
+    .form_registro{
+        width: 95%;
+        
+    }
+    
+}
