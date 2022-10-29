@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITBM - Editar</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/_all-skins.min.css">
+  <link rel="stylesheet" href="css/AdminLTE.min.css">
+  <link rel="stylesheet" href="css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/font-awesome.css.map">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-dark">
+  
+  <div class="login-logo">
+    <a href="#" class="tamaño-texto"><b>PLATAFORMA VIRTUAL - BIBLIOTECA ITBM</a>
+  </div>
+
+  <div class="" id="modalEdit">
+    <div class="form-content">
+      <div class="form-body">
+        <form id="formAdd">
+          <div class="control">
+            <label class="small mb-1" for="codigo"><span class="fa fa-user"></span> Codigo:</label>
+            <input type="text" name="codigo">
+          </div>
+          <div class="control">
+            <label class="small mb-1" for="nombre"><span class="fa fa-user"></span> Nombre:</label>
+            <input type="text" name="nombre">
+          </div>
+        </form>
+      </div>
+      <div class="form-footer">
+          <button type="button" onclick="closeModalEdit()" class="btn btn-primary btn-block btn-flat"> Cancelar</button>
+          <button type="button" onclick="updateProduct()" class="btn btn-primary btn-block btn-flat">Guardar cambios</button>
+      </div>
+      <span id="msgFormEdit" class="msg-error"></span>
+    </div>
+  </div>
+
+  <div class="alert" id="alert">Algo sucedió..</div>
+
+  <div id="categoriaList" class="categoria-list"></div>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
