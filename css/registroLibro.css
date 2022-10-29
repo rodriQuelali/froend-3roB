@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: '.font-italic', Italica;
+}
+.contenedor__todo{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.contenedor__libro-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #7796eb(243, 2, 2);
+    position: absolute;
+    border-radius: 10px;
+    /*text-align: center;*/
+}
+.contenedor__libro-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0e0d0d;
+}
+.formulario__register{
+   
+    background: #97bde9(243, 2, 2);
+}
+.contenedor__libro-register form input{
+    width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #c7d4e9;
+    font-size: 10px;
+    /*outline: none;*/
+    font-family: '.text-left, .text-center, .text-right, .text-justify';
+}
+.contenedor__libro-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #9ab0ee;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(14, 4, 4);
+    outline: none;
+   
+}
