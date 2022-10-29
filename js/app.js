@@ -8,7 +8,7 @@ const updateCategoria = () => {
   }
 
   if(!categoria.Codigo || !categoria.Nombre) {
-    document.querySelector('#msgFormEdit').innerHTML = '* Los campos no deden estar vacios';
+    document.querySelector('#msgFormEdit').innerHTML = '* Los campos no deben estar vacios';
     return;
   }
   document.querySelector('#msgFormEdit').innerHTML = '';
@@ -31,7 +31,7 @@ const updateCategoria = () => {
   document.querySelector('#formEdit').reset();
 }
 
-<<<<<<< HEAD
+/*BUSQUEDA DE LIBROS*/
 document.addEventListener("keyup", e=>{
 
   if (e.target.matches("#buscador")){
@@ -50,8 +50,6 @@ document.addEventListener("keyup", e=>{
 
 })
 
-=======
->>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 // MODAL ADIT MANAGER
 /** --------------------------------------------------------------- */
 const modalEdit = document.querySelector('#modalEdit');

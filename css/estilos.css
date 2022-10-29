@@ -15,6 +15,35 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.651) !important;
 }
+/*ESTILOS LIBROS 2*/
+.bg-light{
+  background-image: url(../asset/img/about/1.jpg) !important;
+  background-color: rgb(78, 17, 17) !important;
+  background-position: center center!important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative !important;
+}
+.bg-light:before{
+  content: '';
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.651) !important;
+}
+.color-text{
+  color: black !important;
+  text-shadow: -8x 0px 7px azure !important;
+  text-align: center !important;
+  font-size: 50px !important;
+  background-color: rgba(240, 255, 255, 0.6);
+}
+
+
+
+
 .login-box{
     position: relative;
 }
@@ -26,34 +55,25 @@
     color: white !important;
 }
 .tamaño-text{
-<<<<<<< HEAD
   font-size: 19px !important;
   inline-size: auto;
-=======
   font-size: 20px !important;
->>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 }
 .tam-text{
   font-size: 15px !important;
 }
 .text-align{
-<<<<<<< HEAD
-    text-align: center !important;
-=======
-    text-align: center;
->>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
+text-align: center !important;
+text-align: center;
 }
 .table-color{
   background-color: rgb(255, 255, 255) !important;
   position: relative;
 }
 
-<<<<<<< HEAD
 .filtro{
   display: none !important;
 }
-=======
->>>>>>> 04e3f8878161a1cb36bf6bd6355a9eac9145e819
 /* API */
 html {
     font-family: sans-serif;
