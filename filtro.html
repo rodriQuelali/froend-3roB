@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FILTRO DE LIBROS</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/filtro.css" />
+    <link rel="stylesheet" href="index.html">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Busqueda de libros.."
+        />
+        <button id="search">Buscar</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterLibro('Libros')">Libros</button>
+        <button class="button-value" onclick="filterLibro('Topwear')">
+          Codigo Libro
+        </button>
+        <button class="button-value" onclick="filterLibro('Bottomwear')">
+          Titulo
+        </button>
+        <button class="button-value" onclick="filterLibro('Jacket')">
+          Autor
+        </button>
+        <button class="button-value" onclick="filterLibro('Watch')">
+          Categorias
+        </button>
+      </div>
+      <div id="libros"></div>
+    </div>
+    <!-- Script -->
+    <script src="js/filtro.js"></script>
+  </body>
+</html>
